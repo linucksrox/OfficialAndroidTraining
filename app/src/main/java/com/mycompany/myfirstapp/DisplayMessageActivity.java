@@ -22,7 +22,7 @@ public class DisplayMessageActivity extends ActionBarActivity {
         // display the message on the screen
         TextView textView = new TextView(this);
         textView.setTextSize(40);
-        textView.setText(message);
+        textView.setText('You entered: " + message);
 
         // display the message on the screen
         setContentView(textView);
